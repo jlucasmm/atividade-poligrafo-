@@ -73,10 +73,10 @@ function resultado() {
     if(totalSim <5){
         document.getElementById("resultado").textContent =
         "Inocente";
-    } else if (totalSim =5){
+    } else if (totalSim ===5){
          document.getElementById("resultado").textContent =
         "Suspeito "
-    } else if( totalSim>=6 && totalSim<=8){
+    } else if( totalSim>===6 && totalSim<===8){
          document.getElementById("resultado").textContent =
         " Cúmplice "
     } else{
