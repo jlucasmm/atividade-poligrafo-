@@ -1,0 +1,23 @@
+    body{
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+ 
+    .poligrafo{
+        max-width: 650px;
+        margin: auto;
+        padding: 20px;
+        background-color: darkgray;
+    }
+ 
+    .select{
+        padding: 12px 20px;
+        width: 10px;
+ 
+    }
+
+    .h3{
+        font-family: monospace;
+    }
+ 

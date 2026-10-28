@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Polígrafo</title>
+    <link rel="stylesheet" href="poligrafo.css">
+</head>
+<body>
+    <div class="poligrafo">
+        <h1>Teste do polígrafo</h1>
+        <p>Responda às perguntas</p>
+  
+        <h3 id="numero">Pergunta 1 de 6</h3>
+
+        <div class="pergunta" id="pergunta">
+            Vamos começar o interrogatório!
+        </div>      
+        <br>
+ 
+        <select id="resposta">
+            <option value="">Selecione sua resposta</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+ 
+        <button onclick="responder()">Responder</button>
+   
+ 
+    <h2 id="resultado"></h2>
+ 
+    <button id="reiniciar" onclick="reiniciar()"> reiniciar</button>
+ 
+</div>
+ 
+    <script src="poligrafo.js"></script>
+</body>
+</html>
+ 
